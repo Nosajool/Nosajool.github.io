@@ -3,4 +3,15 @@ layout: centered
 title: Projects
 permalink: /projects/
 ---
-<h1>{{ page.title }}</h1>
+<ul>
+  {% for project in site.projects reversed %}
+    <li>
+      <time datetime='{{ project.date }}'>{{ project.date | date: "%b %Y" }}</time>
+      |
+      <a href="{{ project.url }}">{{ project.title }}</a>
+    </li>
+    <li>
+      {{ project.content | strip_html | truncate: 85 }}
+    </li>
+  {% endfor %}
+</ul>

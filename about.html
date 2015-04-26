@@ -3,4 +3,22 @@ layout: centered
 title: About
 permalink: /about/
 ---
-<h1>{{ page.title }}</h1>
+<article>
+  <section>
+    <h1>About</h1>
+    {{ site.description }}
+  </section>
+
+  <br>
+
+  <section>
+    <h2>Board Games</h2>
+    My friends and I play a lot of board games in our free time. Here's a bunch that I enjoy.
+    <button id="games-list-button" type="button" onclick="gamesListToggle()">Show List</button>
+    <ul id="games-list">
+      {% for game in site.data.boardgames %}
+        <li>{{ game }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+</article>

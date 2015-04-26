@@ -1,0 +1,16 @@
+---
+layout: centered
+---
+<article>
+  <h1>
+    <a href="{{ page.url }}">{{ page.title }}</a>
+  </h1>
+  <time datetime='{{ page.date }}'>{{ page.date | date: "%B %Y" }}</time>
+  <br>
+  <a href="{{ page.site_url }}">Site</a>
+  |
+  <a href="{{ page.github }}">Github</a>
+  <section>
+    {{ page.content }}
+  </section>
+</article>
