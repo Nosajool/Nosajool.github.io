@@ -3,10 +3,10 @@ title: Jason Loo
 email: jmloo@uwaterloo.ca
 description: >
   Hi there, I'm a Software Engineering Student at the University of Waterloo.
+  My past co-ops have been at Vidyard and Kik and I'm currently at school for my 2B term.
+  As a huge hockey fan, I tend to blog/rant here about the Sens/Caps.
   <br/><br/>
-  I just completed my second co-op term as a Software Engineer at Vidyard and will be starting the 2B school term in May.
-  <br/><br/>
-  When I'm not architecting or implementing a project, I can be found watching hockey, playing Super Smash Brothers, foosball or biking.
+  My technical experience so far has been in full stack web development with Ruby on Rails and NodeJS. In particular, I'm interested in API design and integrating them with SPAs (Single Page Applications).
 baseurl: ""
 url: "http://nosajool.github.io"
 twitter_username: J_waterLoo

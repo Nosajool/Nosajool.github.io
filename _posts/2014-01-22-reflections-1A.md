@@ -1,6 +1,7 @@
 ---
 title: 1A Exams
 layout: post
+published: false
 ---
 
 At Waterloo, after week 5 of classes, first year engineering students get to enjoy a nice thanksgiving long weekend and are rewarded with a week off from school. Unfortunately, it is to take their midterm examinations. We get one exam per day from Tuesday to Saturday of that 6th week and return to school on the Monday of week 7. It is nicknamed “Hell Week” as it a week of constantly studying, writing your exam and then studying for the one that is tomorrow. Bizarrely, I found “Hell Week” to be the most relaxing week of the term. For once, you don’t have to worry about the weekly assignments for each course, the lab reports and the computer delivered tutorials and can just focus on solving practice problems in preparation for the exams. It was a strange feeling as I felt like I had so much time not having to go to classes for that one week. Nevertheless, midterm exams still important as they are generally worth 10-30% of your final grade. Thus, even though I had tons of free time to chill with friends, I still devoted a good chunk of that week to studying. Keep in mind that midterm results give you a good indication of what areas you are weak in and what you need to focus on for the final stretch.

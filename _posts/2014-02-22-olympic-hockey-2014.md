@@ -1,5 +1,5 @@
 ---
-title: Olympic Hockey 2014 & Reading Week
+title: Olympic Hockey 2014
 layout: post
 ---
 

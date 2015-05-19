@@ -183,6 +183,11 @@ small {
   margin: 0 auto ($footer-height * -1);
   overflow: hidden;
 }
+
 #wrap > *:last-child {
   padding-bottom: $footer-height;
+}
+
+.post-time {
+  float: right;
 }
