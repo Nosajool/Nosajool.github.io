@@ -2,7 +2,11 @@
  * Syntax highlighting styles
  */
 .highlight {
-    background: #fff;
+    background: $code-snippet__background;
+    border-radius: 5px;
+    border: 1px solid $code-snippet__border;
+    margin-bottom: 1.5em;
+    padding: 0.5em;
 
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error

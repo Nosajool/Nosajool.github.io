@@ -1,6 +1,18 @@
 /* Blog post list */
 
-article h1 a {
-  text-decoration: none;
-  font-weight: 600;
+article {
+  h1 a {
+    text-decoration: none;
+    font-weight: 600;
+  }
+  ul, ol {
+    padding: 0 0 0 20px;
+  }
+  .navigation-container {
+    display: flex;
+    justify-content: flex-end;
+    .navigation-link {
+      margin: 0 10px;
+    }
+  }
 }

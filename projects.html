@@ -3,7 +3,7 @@ layout: centered
 title: Projects
 permalink: /projects/
 ---
-<ul>
+<ul class="list">
   {% for project in site.projects reversed %}
     <li>
       <time datetime='{{ project.date }}'>{{ project.date | date: "%b %Y" }}</time>

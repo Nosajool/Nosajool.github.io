@@ -6,7 +6,9 @@ layout: centered
     <a href="{{ page.url }}">{{ page.title }}</a>
   </h1>
   <time datetime='{{ page.date }}'>{{ page.date | date: "%B %d, %Y" }}</time>
+  {% include post-navigation.html %}
   <section>
     {{ content }}
   </section>
+  {% include post-navigation.html %}
 </article>

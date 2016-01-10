@@ -19,7 +19,14 @@ $lightesttext:     #999;
 $background:       white;
 $grey:             #f6f6f5;
 $lightgrey:        #fcfcfc;
-$post-link-color:  #F9EDED;
+$post-link__color:  #F9EDED;
+
+// Code
+$code-snippet__background: #EEEEEE;
+$code-snippet__border: #CCC;
+
+// Tables
+$table-cell__padding: 8px;
 
 // Width of the content area
 $content-width:    800px;
@@ -32,6 +39,7 @@ $footer-height:    4em;
   "reset",
   "layout",
   "header",
+  "index",
   "post",
   "footer",
   "syntax-highlighting",
