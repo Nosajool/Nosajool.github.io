@@ -18,7 +18,7 @@ Inspired by [Boom](https://github.com/holman/boom), we built a simple key-value 
 By authorizing our app to post on behalf of the user, we listen for chat messages prefixed by the word "slam". We then execute the typed command from [this]({{ page.site_url }}) list.
 
 For example, to save this gif to the word 'hungry',
-![Breakfast](http://i.imgur.com/tGMnXu5.gif)
+![Breakfast](/assets/images/projects/cereal.gif)
 
 you can type
 `slam add hungry http://i.imgur.com/tGMnXu5.gif`
@@ -27,7 +27,7 @@ to post it in the channel, you can use the command:
 `slam hungry`
 
 Another cool command is saving the last message posted by someone else to a key. For instance, let's say someone posts this Bizarro Flame gif:
-![Bizzarro Flame](http://giant.gfycat.com/RectangularLonelyCrustacean.gif)
+![Bizzarro Flame](/assets/images/projects/bizarro.gif)
 
 You can then save it to Slack Slam using
 
