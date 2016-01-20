@@ -9,10 +9,12 @@ url: "http://nosajool.github.io"
 twitter_username: J_waterLoo
 github_username:  Nosajool
 
-# Build settings
 markdown: kramdown
 kramdown:
   input: GFM
+
+gems:
+  - jekyll-sitemap
 
 collections:
   projects:
