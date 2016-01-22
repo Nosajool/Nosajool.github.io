@@ -19,7 +19,7 @@ irb(main):001:0> "2419".rjust(16, "*")
 * In Minitest, we can change "test" to "skip" to skip the test
   * ...Who would have guessed?
 
-* [Spring find link](https://github.com/rails/spring) is an application preloader that speeds up development by keeping your application running in the background so you don't need to boot it every time you run a test, rake task or migration.
+* [Spring](https://github.com/rails/spring) is an application preloader that speeds up development by keeping your application running in the background so you don't need to boot it every time you run a test, rake task or migration.
 
 * **vimdiff** is a tool you can use to resolve merge conflicts in Vim
 
