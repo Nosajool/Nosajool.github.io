@@ -1,11 +1,11 @@
 # Blog
 
-The source code for [https://jasonloo.co/](https://jasonloo.co/).
+The source code for [https://nosajool.github.io/](https://nosajool.github.io/).
 
 ## Running Locally
 
 ```
-rbenv local 2.3.0
+rvm use 2.4.1
 bundle install
 jekyll serve
 # http:localhost:4000
