@@ -7,22 +7,5 @@ permalink: /about/
   <section>
     <h1>About</h1>
     {{ site.description }}
-    <p>My technical experience so far has been in web development with Ruby on Rails. Throughout university, I've completed internships at Shopify, Vidyard and Kik.</p>
-    <p>Currently, I'm interested in learning about ways to improve web performance at the different layers of an application as well as how distributed systems are used for Big Data analysis.</p>
-
-    <p>I've also recently become more curious about finance and am taking a course on <a href="https://www.coursera.org/learn/computational-investing">Computational Investing</a> on Coursera. </p>
-  </section>
-
-  <br>
-
-  <section>
-    <h2>Board Games</h2>
-    My friends and I play a lot of board games in our free time. Here's a bunch that I enjoy.
-    <button id="games-list-button" type="button" onclick="gamesListToggle()">Show List</button>
-    <ul id="games-list">
-      {% for game in site.data.boardgames %}
-        <li>{{ game }}</li>
-      {% endfor %}
-    </ul>
   </section>
 </article>
