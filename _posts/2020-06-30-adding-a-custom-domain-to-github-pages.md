@@ -67,15 +67,15 @@ As of 2018, you can [enable HTTPS for Github pages with custom domains](https://
 
 Enabling this was a simple checkbox in the settings of the repository after adding the custom domain.
 
-![](/assets/images/posts/adding-a-custom-domain-to-github-pages/github_settings.png)
+![github pages settings to enable https](/assets/images/posts/adding-a-custom-domain-to-github-pages/github_settings.png)
 
 This automatically [generated a commit for me](https://github.com/Nosajool/Nosajool.github.io/commit/f2d6cd912f5dbd548ad4fa9eba06a6bd4b011773) to create the CNAME file in the root of the repository.
 
 And after waiting about 30 minutes, voila! We have a server certificate configured to allow which allows us to enable HTTPS on the website.
 
-![](/assets/images/posts/adding-a-custom-domain-to-github-pages/server_certificate.png)
+![google chrome server certificate](/assets/images/posts/adding-a-custom-domain-to-github-pages/server_certificate.png)
 
-![](/assets/images/posts/adding-a-custom-domain-to-github-pages/security_tab.png)
+![google chrome security tab](/assets/images/posts/adding-a-custom-domain-to-github-pages/security_tab.png)
 
 We can see here that Github had partnered with [Let's Encrypt](https://letsencrypt.org/) to issue the server certificate. This is a certificate that is valid for 90 months after which I hope there is automation in place for Github to renew it automatically.
 

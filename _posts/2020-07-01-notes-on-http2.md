@@ -19,7 +19,7 @@ It is accomplished by enabling full request and response multiplexing, compressi
 
 HTTP/2 introduces a new binary framing layer that dictates how the HTTP messages are encapsulated.
 
-![](/assets/images/posts/notes-on-http2/binary_framing_layer.png)
+![http2 binary framing layer](/assets/images/posts/notes-on-http2/binary_framing_layer.png)
 <a class="img-source" href="https://developers.google.com/web/fundamentals/performance/http2">https://developers.google.com/web/fundamentals/performance/http2</a>
 
 In HTTP/1.1, the entire HTTP message including HTTP headers and data are delivered in newline delimited plaintext. In HTTP/2, the communication is split into smaller messages and frames and are each encoded in a binary format.
@@ -38,7 +38,7 @@ Each message is an HTTP message such as a request or response which consists of 
 
 The frame is the smallest unit of communication. Frames from different streams may be interleaved and reassembled.
 
-![](/assets/images/posts/notes-on-http2/streams_messages_and_frames.png)
+![http2 streams messages and frames](/assets/images/posts/notes-on-http2/streams_messages_and_frames.png)
 <a class="img-source" href="https://developers.google.com/web/fundamentals/performance/http2">https://developers.google.com/web/fundamentals/performance/http2</a>
 
 ## Request and response multiplexing
@@ -47,7 +47,7 @@ One of HTTP/1.x's performance problems stems from the response queuing delivery 
 
 The binary framing layer solves this problem by enabling full request and response multiplexing. This allows the client and server to break down an HTTP message into independent frames, interleave them and reassemble them on the other end.
 
-![](/assets/images/posts/notes-on-http2/request_and_response_multiplexing.png)
+![http2 request and response multiplexing](/assets/images/posts/notes-on-http2/request_and_response_multiplexing.png)
 <a class="img-source" href="https://developers.google.com/web/fundamentals/performance/http2">https://developers.google.com/web/fundamentals/performance/http2</a>
 
 As we can see in the figure, we can interleave multiple requests and responses in parallel all within a single TCP connection.
@@ -58,7 +58,7 @@ Each HTTP/2 stream has an associated weight between 1 and 256 and can have a dep
 
 The server can then use this information to optimize the delivery of high-priority responses to the client.
 
-![](/assets/images/posts/notes-on-http2/stream_prioritization.png)
+![http2 stream prioritization](/assets/images/posts/notes-on-http2/stream_prioritization.png)
 <a class="img-source" href="https://developers.google.com/web/fundamentals/performance/http2">https://developers.google.com/web/fundamentals/performance/http2</a>
 
 Clients can update their stream dependencies and weights at any time which is neat as the prioritization tree can change in response to user interaction.
@@ -75,7 +75,7 @@ Flow control is the mechanism to prevent a sender from overwhelming a receiver t
 
 Unlike in HTTP/1.1, HTTP/2 gives the server the ability push multiple responses back to the client for a single client request without the client having to request each one explicitly.
 
-![](/assets/images/posts/notes-on-http2/server_push.png)
+![http2 server push](/assets/images/posts/notes-on-http2/server_push.png)
 <a class="img-source" href="https://developers.google.com/web/fundamentals/performance/http2">https://developers.google.com/web/fundamentals/performance/http2</a>
 
 For example, here the client is requesting the HTML page `GET /page.html`, and the server responds with the HTML page in stream 1 along with the JavaScript file and CSS file in stream 2 and stream 4.
@@ -89,13 +89,13 @@ One last note on server pushing is that server push streams are initiated via `P
 
 In HTTP/1.x, plain text headers add 500-800 bytes of metadata overhead per message and sometimes kilobytes if sending HTTP cookies. HTTP/2 compresses the request and response header metadata. Compression is done using Huffman encoding. The client and server also maintain and update an indexed list of previously seen header fields to avoid compressing duplicated headers.
 
-![](/assets/images/posts/notes-on-http2/header_compression.png)
+![http2 header compression](/assets/images/posts/notes-on-http2/header_compression.png)
 <a class="img-source" href="https://developers.google.com/web/fundamentals/performance/http2">https://developers.google.com/web/fundamentals/performance/http2</a>
 
 ## Is this site using HTTP/2?
 
 Yes!
 
-![](/assets/images/posts/notes-on-http2/json_writer_protocols.png)
+![http2 json writer chrome protocols](/assets/images/posts/notes-on-http2/json_writer_protocols.png)
 
 In fact, 47% of the top 10 million websites support HTTP/2 as of July 2020.

@@ -44,7 +44,7 @@ Did anyone even read this blog back then? I doubt it. I have gotten a few Linked
 
 Younger me had added Google Analytics. Lets take a peek.
 
-![](/assets/images/posts/return-from-5-year-blogging-hiatus/google_analytics.png)
+![google analytics](/assets/images/posts/return-from-5-year-blogging-hiatus/google_analytics.png)
 
 Almost 6000 unique or "New Users". I assume that a lot of this is bot traffic.
 
@@ -61,7 +61,7 @@ There is very minimal traffic from March 2017 to the present day. One possible e
 
 # What posts were the most popular?
 
-![](/assets/images/posts/return-from-5-year-blogging-hiatus/google_analytics_pages.png)
+![google analytics most popular pages](/assets/images/posts/return-from-5-year-blogging-hiatus/google_analytics_pages.png)
 
 Sorting by 'Unique views', we can see that `69.51%` of viewers just visited the root page.
 
@@ -73,7 +73,7 @@ The 'bounce rate' and 'average time on page' for these posts give me a good indi
 
 To get a sense of the "real" audience, I am going to make the naive assumptions that visitors are first visiting the site root and not being linked directly to a post. This table shows where visitors navigated to after visiting the site root.
 
-![](/assets/images/posts/return-from-5-year-blogging-hiatus/next_page_path.png)
+![google analytics next page path](/assets/images/posts/return-from-5-year-blogging-hiatus/next_page_path.png)
 
 In total, there were 861 post visits that originated the home page. Based on the bounce rates for these posts, a portion of these are most likely bots.
 
