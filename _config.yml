@@ -4,6 +4,8 @@ description: >
   <p>Hi there, my name is Jason Loo. I write about Software Engineering and the Internet</p>
 baseurl: ""
 url: "https://www.jsonwriter.com"
+twitter_username: json_writer
+facebook_username: jsonwriter
 github_username:  Nosajool
 linkedin_public_username: jasonmloo
 
