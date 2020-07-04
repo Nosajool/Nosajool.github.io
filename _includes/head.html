@@ -6,13 +6,10 @@
   <title>
     {% if page.title %}
       {% if page.title != "Index" %}
-        {{ page.title }}
-      {% else %}
-        {{ site.title }}
+        {{ page.title }} |
       {% endif %}
-    {% else %}
-      {{ site.title }}
     {% endif %}
+    {{ site.title }}
   </title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
