@@ -4,8 +4,15 @@ description: >
   <p>Hi there, my name is Jason Loo. I write about Software Engineering and the Internet</p>
 baseurl: ""
 url: "https://www.jsonwriter.com"
-twitter_username: json_writer
-facebook_username: jsonwriter
+
+twitter:
+  username: json_writer
+  card: summary
+
+facebook:
+  publisher: https://www.facebook.com/jsonwriter
+  admin: https://www.facebook.com/jsonwriter
+
 github_username:  Nosajool
 linkedin_public_username: jasonmloo
 
@@ -18,6 +25,7 @@ collections:
     output: true
 
 plugins:
+  - jekyll-seo-tag
   - jekyll-sitemap
 
 exclude:
