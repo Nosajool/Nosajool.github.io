@@ -1,6 +1,7 @@
 ---
 title: Olympic Hockey 2014
 layout: post
+published: false
 ---
 
 Reading Week couldn’t have come at a better time. Not only did I get the chance to catch up on my classes *cough* electro-mag, I also got to watch the 2014 Olympics and some great hockey! During the year, I didn’t have the time to watch NHL games and was limited to highlights but this week, I finally saw one from start to finish. Being still butt hurt that Team USA cut Bobby Ryan, I looked forward to the ass-whopping that Canada would hand them. You wouldn’t be able to tell from the 1-0 score, but Canada completely dominated the play. Aside from a couple first period scares, the team played a solid defensive game and stopped Kessel and Kane from creating any offence.
