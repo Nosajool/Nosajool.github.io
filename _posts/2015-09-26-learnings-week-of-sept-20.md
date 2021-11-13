@@ -1,5 +1,5 @@
 ---
-title: Learnings week of Sept 20
+title: Learnings week of Sept 20 - kill, database migrations, resque
 layout: learnings
 published: true
 ---

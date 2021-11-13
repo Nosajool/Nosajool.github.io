@@ -1,5 +1,5 @@
 ---
-title: Learnings week of Dec 13
+title: Learnings week of Dec 13 - HTTP Cookies, pry
 layout: learnings
 published: true
 ---

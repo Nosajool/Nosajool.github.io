@@ -1,5 +1,5 @@
 ---
-title: Learnings week of Nov 8
+title: Learnings week of Nov 8 - rjust, git grep, spring, rebasing
 layout: learnings
 published: true
 ---

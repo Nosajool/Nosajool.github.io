@@ -1,5 +1,5 @@
 ---
-title: "/etc/services"
+title: "What is /etc/services ?"
 layout: post
 published: true
 ---

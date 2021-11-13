@@ -1,5 +1,5 @@
 ---
-title: Learnings week of Nov 15
+title: Learnings week of Nov 15 - git patching, load balancing, cdns
 layout: learnings
 published: true
 ---

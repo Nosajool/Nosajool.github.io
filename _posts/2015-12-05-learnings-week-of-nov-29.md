@@ -1,5 +1,5 @@
 ---
-title: Learnings week of November 29
+title: Learnings week of November 29 - i18n, _, PORO
 layout: learnings
 published: true
 ---

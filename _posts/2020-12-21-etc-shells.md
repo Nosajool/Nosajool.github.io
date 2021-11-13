@@ -1,5 +1,5 @@
 ---
-title: "/etc/shells"
+title: "What is /etc/shells ?"
 layout: post
 published: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: Learnings week of Oct 4
+title: Learnings week of Oct 4 - mocha, gems, options
 layout: learnings
 published: true
 ---

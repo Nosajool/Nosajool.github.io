@@ -1,5 +1,5 @@
 ---
-title: Learnings week of Dec 20
+title: Learnings week of Dec 20 - CORS, memoization
 layout: learnings
 published: true
 ---

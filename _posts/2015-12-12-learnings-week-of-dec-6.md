@@ -1,5 +1,5 @@
 ---
-title: Learnings week of Dec 6
+title: Learnings week of Dec 6 - mac os tricks, ActiveRecord transactions
 layout: learnings
 published: true
 ---

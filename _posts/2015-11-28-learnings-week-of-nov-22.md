@@ -1,5 +1,5 @@
 ---
-title: Learnings week of Nov 22
+title: Learnings week of Nov 22 - pandas, vcr, ssl, hsts, rubocop
 layout: learnings
 published: true
 ---
@@ -8,7 +8,7 @@ published: true
 * In Chrome, `option-delete` deletes the last word typed.
 * [vcr](https://github.com/vcr/vcr) records HTTP interactions to replay them during future tests.
   * Records response as a fixture in `.yml` format
-* [CludFlare](https://www.cloudflare.com/) is a service that allows you to route web traffic through their global network.
+* [CloudFlare](https://www.cloudflare.com/) is a service that allows you to route web traffic through their global network.
   * Take advantage of their CDN so that your content is closer to visitors
   * Block abusive bots and crawlers by intercepting requests and presenting them with a challenge page
   * Free SSL

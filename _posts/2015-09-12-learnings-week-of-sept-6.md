@@ -1,5 +1,5 @@
 ---
-title: Learnings week of Sept 6
+title: Learnings week of Sept 6 - ZSH, VIM,
 layout: learnings
 published: true
 ---

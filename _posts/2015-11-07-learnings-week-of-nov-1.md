@@ -1,5 +1,5 @@
 ---
-title: Learnings week of Nov 1
+title: Learnings week of Nov 1 - resque workers, byebug, virtualenv, ActiveRecord
 layout: learnings
 published: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: Learnings week of Oct 18
+title: Learnings week of Oct 18 - redis, docker
 layout: learnings
 published: true
 ---

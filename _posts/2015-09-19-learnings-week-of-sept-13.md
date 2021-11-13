@@ -1,5 +1,5 @@
 ---
-title: Learnings week of Sept 13
+title: Learnings week of Sept 13 - Git, Fixtures, top
 layout: learnings
 published: true
 ---

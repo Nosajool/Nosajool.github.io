@@ -1,5 +1,5 @@
 ---
-title: Learnings week of Oct 11
+title: Learnings week of Oct 11 - nginx, flexbox, hosts
 layout: learnings
 published: true
 ---

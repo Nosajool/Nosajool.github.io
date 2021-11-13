@@ -1,5 +1,5 @@
 ---
-title: Learnings week of Sept 27
+title: Learnings week of Sept 27 - hashes, keyword arguments, tmux
 layout: learnings
 published: true
 ---
