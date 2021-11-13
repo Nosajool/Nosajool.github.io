@@ -1,7 +1,7 @@
 ---
 title: Rust first impressions
 layout: post
-published: true
+published: false
 ---
 
 This morning, I decided to take a look at Rust. It is a language I had heard about a couple of years ago as the "Most loved programming language by developers", but I have never tried it out nor have I done any research on it. I have been working on C code lately for the past month and have heard that Rust can be used to solve similar problem spaces.

@@ -1,7 +1,7 @@
 ---
 title: "Rust first impressions - Part 4"
 layout: post
-published: true
+published: false
 ---
 
 This is the fourth part of the "Rust first impressions" series where I write some notes and add commentary to reading the [The Rust Programming Language Book ](https://doc.rust-lang.org/stable/book/). Start with [part 1](/2020/07/11/rust-first-impressions.html).
